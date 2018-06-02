@@ -158,10 +158,6 @@
       <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
     </repository>
     <repository>
-      <id>Plugin Metrics</id>
-      <url>http://repo.mcstats.org/content/repositories/public</url>
-    </repository>
-    <repository>
       <id>tvpt-repo</id>
       <url>http://vault.voxelmodpack.com/content/groups/public/</url>
     </repository>

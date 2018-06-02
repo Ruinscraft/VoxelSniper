@@ -13,7 +13,7 @@ public class VoxelBrushToolCommand extends VoxelCommand
     {
         super("VoxelBrushTool", plugin);
         setIdentifier("btool");
-        setPermission("voxelsniper.sniper");
+        setPermission("voxelsniper.btool");
     }
 
     @Override

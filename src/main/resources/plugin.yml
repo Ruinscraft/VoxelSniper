@@ -25,7 +25,6 @@ commands:
            Example: /<command> -- Undoes your most recent snipe.
   uu:
     description: UndoUser undoes another sniper user's snipes.
-    permission: voxelsniper.sniper
     usage: |
            /<command> [playername]
            Example: /<command> bads -- Undoes BadSniper's last snipe.  BadSniper must be online for name detection to function. Truncation allowed.
@@ -101,7 +100,6 @@ commands:
            Example: /<command> b cm -- Sets your brush to the Ball Brush with the combo-mat performer.
   btool:
     description: Brush Tool Command.
-    permission: voxelsniper.sniper
     usage : |
             /<command> -- Prints out command usage information.
   vchunk:
