@@ -4,28 +4,27 @@
 .settings/
 
 # netbeans
-nbproject
+nbproject/
+nbactions.xml
+
+# we use maven!
+build.xml
 
 # maven
-/*/target/
 target/
-
-# gradle
-.gradle/
+dependency-reduced-pom.xml
 
 # vim
 .*.sw[a-p]
 
 # various other potential build files
-/*/build/
-/buildassets/map_*.txt
-/*/bin/
-/*/dist/
-/*/manifest.mf
-/release
+build/
+bin/
+dist/
+manifest.mf
 
 # Mac filesystem dust
-.DS_Store
+.DS_Store/
 
 # intellij
 *.iml
@@ -33,8 +32,8 @@ target/
 *.iws
 .idea/
 
-.checkstyle
+# other files
+*.log*
 
-# Testfiles
-test.sh
-/bin/
+# delombok
+*/src/main/lombok
